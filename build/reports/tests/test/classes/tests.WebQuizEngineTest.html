@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class tests.WebQuizEngineTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class tests.WebQuizEngineTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/tests.html">tests</a> &gt; WebQuizEngineTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">43.260s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">start</td>
+<td class="success">43.260s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>?[1;31m
+Start test 1?[0m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2020-12-17 23:04:43.208  INFO 16660 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine on LAPTOP-NSITMBLA with PID 16660 (started by 91878 in C:\Users\91878\Downloads\New folder\Web Quiz Engine\task)
+2020-12-17 23:04:43.215  INFO 16660 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to default profiles: default
+2020-12-17 23:04:44.907  INFO 16660 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-17 23:04:45.069  INFO 16660 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145ms. Found 4 JPA repository interfaces.
+2020-12-17 23:04:45.896  INFO 16660 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 23:04:46.427  INFO 16660 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2020-12-17 23:04:46.453  INFO 16660 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-17 23:04:46.454  INFO 16660 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-17 23:04:46.950  INFO 16660 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-17 23:04:46.951  INFO 16660 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3619 ms
+2020-12-17 23:04:47.189  INFO 16660 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-17 23:04:47.534  INFO 16660 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-17 23:04:47.547  INFO 16660 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
+2020-12-17 23:04:48.008  INFO 16660 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-17 23:04:48.129  INFO 16660 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-12-17 23:04:48.372  INFO 16660 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-17 23:04:48.565  INFO 16660 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: create table quiz_format (id bigint not null, answer binary(255), text varchar(255), title varchar(255), user_id bigint, primary key (id))
+Hibernate: create table quiz_format_options (quiz_format_id bigint not null, options varchar(255))
+Hibernate: create table user (id bigint not null, active boolean not null, username varchar(255) not null, password varchar(255), primary key (id))
+Hibernate: create table users_roles (username varchar(255) not null, role varchar(255), primary key (username))
+Hibernate: alter table user drop constraint if exists UK_sb8bbouer5wak8vyiiy4pf2bx
+Hibernate: alter table user add constraint UK_sb8bbouer5wak8vyiiy4pf2bx unique (username)
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+Hibernate: alter table quiz_format add constraint FK2codin9nrrqlg9uikkehlciyv foreign key (user_id) references user
+Hibernate: alter table quiz_format_options add constraint FK1amsjxllp10774gxyum501k7w foreign key (quiz_format_id) references quiz_format
+2020-12-17 23:04:50.320  INFO 16660 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-17 23:04:50.333  INFO 16660 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 23:04:50.988  WARN 16660 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-17 23:04:51.297  INFO 16660 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@586893a6, org.springframework.security.web.context.SecurityContextPersistenceFilter@e8849f9, org.springframework.security.web.header.HeaderWriterFilter@67f42eb7, org.springframework.security.web.authentication.logout.LogoutFilter@4ccfb53a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2ae78cb0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1814b25d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b39109f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@494fab6e, org.springframework.security.web.session.SessionManagementFilter@843d6eb, org.springframework.security.web.access.ExceptionTranslationFilter@2f8df890, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40a0bf5c]
+2020-12-17 23:04:51.513  INFO 16660 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-17 23:04:51.910  INFO 16660 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-12-17 23:04:51.998  INFO 16660 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2020-12-17 23:04:52.002  INFO 16660 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 9.463 seconds (JVM running for 11.217)
+2020-12-17 23:04:52.488  INFO 16660 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-17 23:04:52.490  INFO 16660 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-17 23:04:52.505  INFO 16660 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into user (active, username, password, id) values (?, ?, ?, ?)
+Hibernate: select userrole0_.username as username1_3_0_, userrole0_.role as role2_3_0_ from users_roles userrole0_ where userrole0_.username=?
+Hibernate: insert into users_roles (role, username) values (?, ?)
+?[1;31m
+Start test 2?[0m
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into user (active, username, password, id) values (?, ?, ?, ?)
+Hibernate: select userrole0_.username as username1_3_0_, userrole0_.role as role2_3_0_ from users_roles userrole0_ where userrole0_.username=?
+Hibernate: insert into users_roles (role, username) values (?, ?)
+?[1;31m
+Start test 3?[0m
+2020-12-17 23:04:53.494  WARN 16660 --- [nio-8889-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void engine.Controller.register(engine.User): [Field error in object 'user' on field 'email': rejected value [google.com]; codes [Pattern.user.email,Pattern.email,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@13c1cfe,\w{3,}@[a-z]+\.[a-z]{2,3}]; default message [must match &quot;\w{3,}@[a-z]+\.[a-z]{2,3}&quot;]] ]
+?[1;31m
+Start test 4?[0m
+2020-12-17 23:04:53.623  WARN 16660 --- [nio-8889-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void engine.Controller.register(engine.User): [Field error in object 'user' on field 'email': rejected value [well@googlecom]; codes [Pattern.user.email,Pattern.email,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@13c1cfe,\w{3,}@[a-z]+\.[a-z]{2,3}]; default message [must match &quot;\w{3,}@[a-z]+\.[a-z]{2,3}&quot;]] ]
+?[1;31m
+Start test 5?[0m
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+?[1;31m
+Start test 6?[0m
+2020-12-17 23:04:53.689  WARN 16660 --- [nio-8889-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void engine.Controller.register(engine.User): [Field error in object 'user' on field 'password': rejected value [1234]; codes [Size.user.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.password,password]; arguments []; default message [password],2147483647,5]; default message [Password must have at least five characters]] ]
+?[1;31m
+Start test 7?[0m
+2020-12-17 23:04:53.706  WARN 16660 --- [nio-8889-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void engine.Controller.register(engine.User): [Field error in object 'user' on field 'password': rejected value [123]; codes [Size.user.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.password,password]; arguments []; default message [password],2147483647,5]; default message [Password must have at least five characters]] ]
+?[1;31m
+Start test 8?[0m
+2020-12-17 23:04:54.563  WARN 16660 --- [nio-8889-exec-8] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [580] milliseconds.
+Hibernate: select quizformat0_.id as id1_0_, quizformat0_.answer as answer2_0_, quizformat0_.text as text3_0_, quizformat0_.title as title4_0_, quizformat0_.user_id as user_id5_0_ from quiz_format quizformat0_
+?[1;31m
+Start test 9?[0m
+Hibernate: select quizformat0_.id as id1_0_, quizformat0_.answer as answer2_0_, quizformat0_.text as text3_0_, quizformat0_.title as title4_0_, quizformat0_.user_id as user_id5_0_ from quiz_format quizformat0_
+?[1;31m
+Start test 10?[0m
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into quiz_format (answer, text, title, user_id, id) values (?, ?, ?, ?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+?[1;31m
+Start test 11?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 12?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 13?[0m
+Hibernate: select quizformat0_.id as id1_0_, quizformat0_.answer as answer2_0_, quizformat0_.text as text3_0_, quizformat0_.title as title4_0_, quizformat0_.user_id as user_id5_0_ from quiz_format quizformat0_
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 14?[0m
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into quiz_format (answer, text, title, user_id, id) values (?, ?, ?, ?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+?[1;31m
+Start test 15?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 16?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 17?[0m
+Hibernate: select quizformat0_.id as id1_0_, quizformat0_.answer as answer2_0_, quizformat0_.text as text3_0_, quizformat0_.title as title4_0_, quizformat0_.user_id as user_id5_0_ from quiz_format quizformat0_
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 18?[0m
+?[1;31m
+Start test 19?[0m
+?[1;31m
+Start test 20?[0m
+?[1;31m
+Start test 21?[0m
+?[1;31m
+Start test 22?[0m
+?[1;31m
+Start test 23?[0m
+?[1;31m
+Start test 24?[0m
+?[1;31m
+Start test 25?[0m
+?[1;31m
+Start test 26?[0m
+?[1;31m
+Start test 27?[0m
+?[1;31m
+Start test 28?[0m
+?[1;31m
+Start test 29?[0m
+?[1;31m
+Start test 30?[0m
+?[1;31m
+Start test 31?[0m
+?[1;31m
+Start test 32?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 33?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 34?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 35?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 36?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 37?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 38?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 39?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 40?[0m
+Hibernate: select quizformat0_.id as id1_0_, quizformat0_.answer as answer2_0_, quizformat0_.text as text3_0_, quizformat0_.title as title4_0_, quizformat0_.user_id as user_id5_0_ from quiz_format quizformat0_
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 41?[0m
+Hibernate: select quizformat0_.id as id1_0_, quizformat0_.answer as answer2_0_, quizformat0_.text as text3_0_, quizformat0_.title as title4_0_, quizformat0_.user_id as user_id5_0_ from quiz_format quizformat0_
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 42?[0m
+2020-12-17 23:04:58.918  INFO 16660 --- [       Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-17 23:04:58.926  INFO 16660 --- [       Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 23:04:58.937  INFO 16660 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-17 23:04:59.029  INFO 16660 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2020-12-17 23:04:59.204  INFO 16660 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine on LAPTOP-NSITMBLA with PID 16660 (started by 91878 in C:\Users\91878\Downloads\New folder\Web Quiz Engine\task)
+2020-12-17 23:04:59.204  INFO 16660 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to default profiles: default
+2020-12-17 23:04:59.577  INFO 16660 --- [       Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-17 23:04:59.592  INFO 16660 --- [       Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-12-17 23:05:00.120  INFO 16660 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-17 23:05:00.169  INFO 16660 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 4 JPA repository interfaces.
+2020-12-17 23:05:00.337  INFO 16660 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 23:05:00.440  WARN 16660 --- [    Test worker] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-12-17 23:05:00.457  INFO 16660 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2020-12-17 23:05:00.457  INFO 16660 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-17 23:05:00.462  INFO 16660 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-17 23:05:00.554  INFO 16660 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-17 23:05:00.554  INFO 16660 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1344 ms
+2020-12-17 23:05:00.688  INFO 16660 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-12-17 23:05:00.722  INFO 16660 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-12-17 23:05:00.723  INFO 16660 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
+2020-12-17 23:05:00.969  INFO 16660 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-17 23:05:00.995  INFO 16660 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-17 23:05:01.302  INFO 16660 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-17 23:05:01.302  INFO 16660 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 23:05:01.544  WARN 16660 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-17 23:05:01.646  INFO 16660 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b2ca00d, org.springframework.security.web.context.SecurityContextPersistenceFilter@460d7728, org.springframework.security.web.header.HeaderWriterFilter@e3370dc, org.springframework.security.web.authentication.logout.LogoutFilter@78151ebb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6ef6bfbd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f6f334f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a4f1bee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49eb9613, org.springframework.security.web.session.SessionManagementFilter@3bd287dd, org.springframework.security.web.access.ExceptionTranslationFilter@19360fa1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1864e78e]
+2020-12-17 23:05:01.776  INFO 16660 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-17 23:05:02.023  INFO 16660 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-12-17 23:05:02.101  INFO 16660 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2020-12-17 23:05:02.105  INFO 16660 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 3.054 seconds (JVM running for 21.319)
+?[1;31m
+Start test 43?[0m
+2020-12-17 23:05:02.121  INFO 16660 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-17 23:05:02.121  INFO 16660 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-17 23:05:02.130  INFO 16660 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+Hibernate: select quizformat0_.id as id1_0_, quizformat0_.answer as answer2_0_, quizformat0_.text as text3_0_, quizformat0_.title as title4_0_, quizformat0_.user_id as user_id5_0_ from quiz_format quizformat0_
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 44?[0m
+Hibernate: select quizformat0_.id as id1_0_, quizformat0_.answer as answer2_0_, quizformat0_.text as text3_0_, quizformat0_.title as title4_0_, quizformat0_.user_id as user_id5_0_ from quiz_format quizformat0_
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 45?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 46?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 47?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 48?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 49?[0m
+2020-12-17 23:05:03.678  WARN 16660 --- [nio-8889-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('&quot;' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('&quot;' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 4, column: 4]]
+?[1;31m
+Start test 50?[0m
+2020-12-17 23:05:03.801  WARN 16660 --- [nio-8889-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('&quot;' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('&quot;' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 5, column: 4]]
+?[1;31m
+Start test 51?[0m
+2020-12-17 23:05:03.926  WARN 16660 --- [nio-8889-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('&quot;' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('&quot;' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 4, column: 4]]
+?[1;31m
+Start test 52?[0m
+2020-12-17 23:05:04.124  WARN 16660 --- [io-8889-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('&quot;' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('&quot;' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 5, column: 4]]
+?[1;31m
+Start test 53?[0m
+2020-12-17 23:05:04.327  WARN 16660 --- [nio-8889-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public engine.QuizFormat engine.Controller.addQuiz(engine.QuizFormat,org.springframework.security.core.Authentication): [Field error in object 'quizFormat' on field 'options': rejected value [null]; codes [NotNull.quizFormat.options,NotNull.options,NotNull.java.util.List,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [quizFormat.options,options]; arguments []; default message [options]]; default message [Options shouldn't be null]] ]
+?[1;31m
+Start test 54?[0m
+2020-12-17 23:05:04.495  WARN 16660 --- [nio-8889-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('&quot;' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('&quot;' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 5, column: 4]]
+?[1;31m
+Start test 55?[0m
+2020-12-17 23:05:04.668  WARN 16660 --- [nio-8889-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('&quot;' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('&quot;' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 5, column: 4]]
+?[1;31m
+Start test 56?[0m
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into quiz_format (answer, text, title, user_id, id) values (?, ?, ?, ?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+?[1;31m
+Start test 57?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 58?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 59?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 60?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 61?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 62?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 63?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 64?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 65?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 66?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 67?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 68?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 69?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 70?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 71?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 72?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 73?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 74?[0m
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into quiz_format (answer, text, title, user_id, id) values (?, ?, ?, ?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+?[1;31m
+Start test 75?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 76?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 77?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 78?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 79?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 80?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 81?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 82?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 83?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 84?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 85?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 86?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 87?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 88?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 89?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 90?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 91?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 92?[0m
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into quiz_format (answer, text, title, user_id, id) values (?, ?, ?, ?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+?[1;31m
+Start test 93?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 94?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 95?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 96?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 97?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 98?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 99?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 100?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 101?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 102?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 103?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 104?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 105?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 106?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 107?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 108?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 109?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 110?[0m
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into quiz_format (answer, text, title, user_id, id) values (?, ?, ?, ?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+?[1;31m
+Start test 111?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 112?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 113?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 114?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 115?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 116?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 117?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 118?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 119?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 120?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 121?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 122?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 123?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 124?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 125?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 126?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 127?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 128?[0m
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into quiz_format (answer, text, title, user_id, id) values (?, ?, ?, ?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+Hibernate: insert into quiz_format_options (quiz_format_id, options) values (?, ?)
+?[1;31m
+Start test 129?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 130?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 131?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 132?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 133?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 134?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 135?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 136?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 137?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 138?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 139?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 140?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 141?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 142?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 143?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 144?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 145?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 146?[0m
+Hibernate: select quizformat0_.id as id1_0_, quizformat0_.answer as answer2_0_, quizformat0_.text as text3_0_, quizformat0_.title as title4_0_, quizformat0_.user_id as user_id5_0_ from quiz_format quizformat0_
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 147?[0m
+2020-12-17 23:05:18.763  INFO 16660 --- [       Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-17 23:05:18.767  INFO 16660 --- [       Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 23:05:18.770  INFO 16660 --- [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-12-17 23:05:18.810  INFO 16660 --- [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2020-12-17 23:05:18.986  INFO 16660 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine on LAPTOP-NSITMBLA with PID 16660 (started by 91878 in C:\Users\91878\Downloads\New folder\Web Quiz Engine\task)
+2020-12-17 23:05:18.986  INFO 16660 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to default profiles: default
+2020-12-17 23:05:19.166  INFO 16660 --- [       Thread-9] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-17 23:05:19.174  INFO 16660 --- [       Thread-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-12-17 23:05:19.448  INFO 16660 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-17 23:05:19.475  INFO 16660 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 4 JPA repository interfaces.
+2020-12-17 23:05:19.550  INFO 16660 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 23:05:19.600  WARN 16660 --- [    Test worker] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-12-17 23:05:19.608  INFO 16660 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2020-12-17 23:05:19.610  INFO 16660 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-17 23:05:19.610  INFO 16660 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-17 23:05:19.660  INFO 16660 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-17 23:05:19.660  INFO 16660 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 665 ms
+2020-12-17 23:05:19.714  INFO 16660 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-12-17 23:05:19.726  INFO 16660 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-12-17 23:05:19.726  INFO 16660 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
+2020-12-17 23:05:19.826  INFO 16660 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-17 23:05:19.841  INFO 16660 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-17 23:05:19.926  INFO 16660 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-17 23:05:19.926  INFO 16660 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 23:05:20.028  WARN 16660 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-17 23:05:20.059  INFO 16660 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@bf46efb, org.springframework.security.web.context.SecurityContextPersistenceFilter@e97bb86, org.springframework.security.web.header.HeaderWriterFilter@8962488, org.springframework.security.web.authentication.logout.LogoutFilter@14348a45, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@21b1c1b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7078a918, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49f371fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24753a87, org.springframework.security.web.session.SessionManagementFilter@2129ef13, org.springframework.security.web.access.ExceptionTranslationFilter@6103e25e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22b4e21e]
+2020-12-17 23:05:20.134  INFO 16660 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-17 23:05:20.247  INFO 16660 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-12-17 23:05:20.275  INFO 16660 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2020-12-17 23:05:20.276  INFO 16660 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 1.382 seconds (JVM running for 39.492)
+?[1;31m
+Start test 148?[0m
+2020-12-17 23:05:20.284  INFO 16660 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-17 23:05:20.289  INFO 16660 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-17 23:05:20.295  INFO 16660 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+Hibernate: select quizformat0_.id as id1_0_, quizformat0_.answer as answer2_0_, quizformat0_.text as text3_0_, quizformat0_.title as title4_0_, quizformat0_.user_id as user_id5_0_ from quiz_format quizformat0_
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 149?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 150?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 151?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 152?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 153?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+Hibernate: delete from quiz_format_options where quiz_format_id=?
+Hibernate: delete from quiz_format where id=?
+?[1;31m
+Start test 154?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 155?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 156?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 157?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 158?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 159?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+?[1;31m
+Start test 160?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+?[1;31m
+Start test 161?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+Hibernate: select user0_.id as id1_2_, user0_.active as active2_2_, user0_.username as username3_2_, user0_.password as password4_2_ from user user0_ where user0_.username=?
+Hibernate: delete from quiz_format_options where quiz_format_id=?
+Hibernate: delete from quiz_format where id=?
+?[1;31m
+Start test 162?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 163?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 164?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 165?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 166?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 167?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 168?[0m
+Hibernate: select quizformat0_.id as id1_0_, quizformat0_.answer as answer2_0_, quizformat0_.text as text3_0_, quizformat0_.title as title4_0_, quizformat0_.user_id as user_id5_0_ from quiz_format quizformat0_
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 169?[0m
+2020-12-17 23:05:23.561  INFO 16660 --- [      Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-17 23:05:23.562  INFO 16660 --- [      Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 23:05:23.563  INFO 16660 --- [      Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-12-17 23:05:23.578  INFO 16660 --- [      Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2020-12-17 23:05:23.621  INFO 16660 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine on LAPTOP-NSITMBLA with PID 16660 (started by 91878 in C:\Users\91878\Downloads\New folder\Web Quiz Engine\task)
+2020-12-17 23:05:23.621  INFO 16660 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to default profiles: default
+2020-12-17 23:05:23.823  INFO 16660 --- [      Thread-12] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-17 23:05:23.829  INFO 16660 --- [      Thread-12] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-12-17 23:05:23.998  INFO 16660 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-17 23:05:24.034  INFO 16660 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 4 JPA repository interfaces.
+2020-12-17 23:05:24.101  INFO 16660 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 23:05:24.138  WARN 16660 --- [    Test worker] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-12-17 23:05:24.149  INFO 16660 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2020-12-17 23:05:24.149  INFO 16660 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-17 23:05:24.150  INFO 16660 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-17 23:05:24.199  INFO 16660 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-17 23:05:24.199  INFO 16660 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 575 ms
+2020-12-17 23:05:24.257  INFO 16660 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-12-17 23:05:24.271  INFO 16660 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-12-17 23:05:24.271  INFO 16660 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
+2020-12-17 23:05:24.375  INFO 16660 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-17 23:05:24.384  INFO 16660 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-17 23:05:24.489  INFO 16660 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-17 23:05:24.489  INFO 16660 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 23:05:24.589  WARN 16660 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-17 23:05:24.629  INFO 16660 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29a5a802, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f2be52e, org.springframework.security.web.header.HeaderWriterFilter@4f5fe227, org.springframework.security.web.authentication.logout.LogoutFilter@58f61437, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6a1a5628, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2762b786, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@179c2797, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@482831bf, org.springframework.security.web.session.SessionManagementFilter@7ce4787c, org.springframework.security.web.access.ExceptionTranslationFilter@4e34d2a7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fac815a]
+2020-12-17 23:05:24.691  INFO 16660 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-17 23:05:24.794  INFO 16660 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-12-17 23:05:24.827  INFO 16660 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2020-12-17 23:05:24.828  INFO 16660 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 1.241 seconds (JVM running for 44.044)
+?[1;31m
+Start test 170?[0m
+2020-12-17 23:05:24.836  INFO 16660 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-17 23:05:24.836  INFO 16660 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-17 23:05:24.839  INFO 16660 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+Hibernate: select quizformat0_.id as id1_0_, quizformat0_.answer as answer2_0_, quizformat0_.text as text3_0_, quizformat0_.title as title4_0_, quizformat0_.user_id as user_id5_0_ from quiz_format quizformat0_
+Hibernate: select user0_.id as id1_2_0_, user0_.active as active2_2_0_, user0_.username as username3_2_0_, user0_.password as password4_2_0_ from user user0_ where user0_.id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+Hibernate: select options0_.quiz_format_id as quiz_for1_1_0_, options0_.options as options2_1_0_ from quiz_format_options options0_ where options0_.quiz_format_id=?
+?[1;31m
+Start test 171?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 172?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 173?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+?[1;31m
+Start test 174?[0m
+Hibernate: select quizformat0_.id as id1_0_0_, quizformat0_.answer as answer2_0_0_, quizformat0_.text as text3_0_0_, quizformat0_.title as title4_0_0_, quizformat0_.user_id as user_id5_0_0_, user1_.id as id1_2_1_, user1_.active as active2_2_1_, user1_.username as username3_2_1_, user1_.password as password4_2_1_ from quiz_format quizformat0_ left outer join user user1_ on quizformat0_.user_id=user1_.id where quizformat0_.id=?
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.6.1</a> at 17-Dec-2020, 11:05:26 PM</p>
+</div>
+</div>
+</body>
+</html>

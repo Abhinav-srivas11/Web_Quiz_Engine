@@ -1,0 +1,38 @@
+engine/AuthenticationEntryPoint.java
+ engine.AuthenticationEntryPoint
+engine/AnswerFormat.java
+ engine.AnswerFormat
+engine/WebQuizEngine.java
+ engine.WebQuizEngine
+engine/QuizException.java
+ engine.QuizException
+engine/UserData.java
+ engine.UserData
+engine/WebMvcConfiguration.java
+ engine.WebMvcConfiguration
+engine/UserRepository.java
+ engine.UserRepository
+engine/UserRole.java
+ engine.UserRole
+engine/SecurityConfig.java
+ engine.SecurityConfig
+engine/User.java
+ engine.User
+engine/Answer.java
+ engine.Answer
+engine/UpdateQuiz.java
+ engine.UpdateQuiz
+engine/QuizRepository.java
+ engine.QuizRepository
+engine/DefaultUserService.java
+ engine.DefaultUserService
+engine/UserRoleRepository.java
+ engine.UserRoleRepository
+engine/QuizFormat.java
+ engine.QuizFormat
+engine/ControllerInterface.java
+ engine.ControllerInterface
+engine/ExceptionHandlerClass.java
+ engine.ExceptionHandlerClass
+engine/Controller.java
+ engine.Controller
